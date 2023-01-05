@@ -1,0 +1,50 @@
+<html>
+    <head>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:url" content="https://stirring-dolphin-f5b4b6.netlify.app/" />
+        <meta property="og:title" content="Bora estudar, Homem Aranha do Ceará" />
+        <meta property="og:image" content="images/miranha.jpg" />
+        <meta property="og:description" content="O miranha do Ceará quer ser garoto de programa" />
+        <meta name="theme-color" content="#fe2813">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home">
+                <h3>ALIENS</h3>
+                <div id="home-score">
+                    <span id="home-points-text">0</span>
+                    
+                </div>
+                <button class="btn-home plus-one" onclick="plusOneHome()">+1</button>
+                <button class="btn-home plus-two" onclick="plusTwoHome()">+2</button>
+                <button class="btn-home plus-three" onclick="plusThreeHome()">+3</button>
+            </div>
+            
+            <div id="guest">
+                <h3>WOLFS</h3>
+                <div id="guest-score">
+                    <span id="guest-points-text">0</span>
+                </div>
+                
+                <button class="btn-guest plus-one" onclick="plusOneGuest()">+1</button>
+                <button class="btn-guest plus-two" onclick="plusTwoGuest()">+2</button>
+                <button class="btn-guest plus-three" onclick="plusThreeGuest()">+3</button>
+            </div>
+           
+           <break></break>
+           <div class="reset">
+               <br>
+               <button id="reset" onclick="resetScore()">RESET</button>
+           </div>
+           
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
